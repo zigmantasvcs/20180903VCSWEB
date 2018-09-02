@@ -8,9 +8,7 @@
 
 ## Kurso I-ojo etapo kalendorius
 
-* Gegužė (21, 22, 24, 25, 28, 29, 31)
-* Birželis (1, 4, 5, 7, 8)
-* Laisvos dienos trečiadieniais
+* Rugsėjis (3, 4, 6, 7, 10, 11, 12, 14, 17, 19, 21, 24)
 
 ## Tai ką bandysime perprasti
 
@@ -30,6 +28,6 @@ Vertinimą sudaro 2 balai.
 * Vienas balas skiriamas už motyvaciją ir norą mokytis. Vertinama kaip studentas aktyviai dalyvauja paskaitų metu ir po paskaitų kitomis komunikacijomis priemonėmis (skype, messanger ar kt). Kaip stengiasi ir kiek laiko skiria namų darbams.
 * Antras balas skiriamas už pažangą, savarankiškumą, tvarkingą kodo rašymą, įgytas ir pritaikytas žinias, pritaikytos žinios tai jūsų kuriamas projektas.
 
-## Apšilimas
+## Apšilimas. Galite iki paskaitos šiek tiek pažaisti su HTML.
 
 * [HTML](https://www.w3schools.com/html/default.asp)
