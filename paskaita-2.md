@@ -6,7 +6,9 @@
 
 ## Paskaitos turinys
 
-1. [Skaidres](https://github.com/zigmantasvcs/20180903VCSWEB/blob/master/skaidres/02_HTML.pdf)
+1. Skaidrės:
+[Skaidres1](https://github.com/zigmantasvcs/20180903VCSWEB/blob/master/skaidres/01_HTML.pdf)
+[Skaidres2](https://github.com/zigmantasvcs/20180903VCSWEB/blob/master/skaidres/02_HTML.pdf)
 
 * Lantelės
 * Audio
