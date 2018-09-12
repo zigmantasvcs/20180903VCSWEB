@@ -19,4 +19,4 @@
 * [Daug javascript temų](https://javascript.info/)
 
 ## Uzduotys
-[JS uzduotys](http://www.codingschoolprojektai.lt/tmp/zigmantas/20180329VCSWEBVAKARINIAI/homeworks/js/)
+[JS uzduotys](http://kitchenoffice.eu/vcs/homeworks/js/)
