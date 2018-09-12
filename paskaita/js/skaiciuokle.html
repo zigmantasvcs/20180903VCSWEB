@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      span{
+        color:red;
+      }
+      h1{
+        color: green;
+      }
+    </style>
+  </head>
+  <body>
+
+    <script type="text/javascript">
+      var pirmasSkaicius = prompt("Iveskite pirma skaiciu", "");
+
+      var arTaiNeSkaicius1 = isNaN(pirmasSkaicius);
+
+      if(arTaiNeSkaicius1){
+        document.write(pirmasSkaicius + " - nera skaicius<br />");
+      }
+
+      var antrasSkaicius = prompt("Iveskite antra skaiciu", "");
+
+      var arTaiNeSkaicius2 = isNaN(antrasSkaicius);
+
+      if(arTaiNeSkaicius2){
+        document.write(antrasSkaicius + " - nera skaicius<br />");
+      }
+
+      var suma = Number(pirmasSkaicius) + Number(antrasSkaicius);
+
+      var arSumaNeSkaicius = isNaN(suma);
+
+      if(arSumaNeSkaicius){
+        document.write("<span>Deja sumos negalime paskaiciuoti. Jusu salyga tokia: " + pirmasSkaicius + "+" + antrasSkaicius + "</span>");
+      }
+      else{
+        document.write("<h1>"+suma+"</h1>");
+      }
+
+    </script>
+  </body>
+</html>
