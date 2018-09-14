@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+
+
+    <script type="text/javascript">
+
+      // funkcijos rezultata priskiriame kintamajam
+      var suma1 = sum(5, 6);
+
+      // funkcijos rezultato panaudojimas
+      console.log(suma1);
+      document.write(suma1);
+      alert(suma1);
+
+      // funkcijos rezultata priskiriame kintamajam
+      var suma2 = sum(11, 8);
+
+      // funkcijos rezultato panaudojimas
+      document.write("<h1>"+suma2+"</h1>")
+
+      document.write(sum(10,15));
+      document.write("<br />");
+      document.write(sum(sum(5, 8), sum(14,15)));
+
+      // funkcija kuri grazina rezultata
+      function sum(pirmasSkaicius, antrasSkaicius) {
+        // 1 variantas
+        // var suma = pirmasSkaicius + antrasSkaicius;
+        // return suma;
+
+        return pirmasSkaicius + antrasSkaicius;
+      }
+
+    </script>
+  </body>
+</html>

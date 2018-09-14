@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <input id="age" type="text" name="" value="">
+    <input type="button" name="" value="" onclick="ileisti()">
+
+    <script type="text/javascript" src="js/mano.js">
+
+    </script>
+    <script type="text/javascript">
+
+
+      function ileisti() {
+        //console.log("veikia ileisti funckija");
+        var age = document.getElementById("age").value;
+        //console.log(age);
+        var leidimas = patikrintiAmziu(age);
+        document.write("<h1>"+leidimas+"</h1>");
+      }
+
+    </script>
+  </body>
+</html>
