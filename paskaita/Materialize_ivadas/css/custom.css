@@ -1,0 +1,16 @@
+.box p{
+  text-align: justify;
+}
+
+.brand-logo img{
+  margin: 10px;
+  width: 50px;
+}
+
+.morkine{
+  background-color: #ff7300;
+}
+
+.fonas{
+  background-image: url("../images/foninis.jpg");
+}
