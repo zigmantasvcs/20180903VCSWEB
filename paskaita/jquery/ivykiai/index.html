@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <input type="text" id="result" name="" value="">
+    <button type="button" name="button">0</button>
+    <button type="button" name="button">1</button>
+    <button type="button" name="button">2</button>
+    <button type="button" name="button">3</button>
+    <button type="button" name="button">+</button>
+    <button type="button" name="button">=</button>
+
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript">
+        
+      $("button").click(function(){
+
+        var senojiReiksme = $("#result").val();
+        var naujojiReiksme = senojiReiksme + $(this).text();
+        $("#result").val(naujojiReiksme);
+
+        if($(this).text() == "="){
+          var result = eval(senojiReiksme);
+          $("#result").val(result);
+        }
+
+      });
+    </script>
+  </body>
+</html>

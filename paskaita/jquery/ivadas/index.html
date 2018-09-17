@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <input type="text" name="" value="" id="name">
+    <input type="text" name="" value="" id="surname">
+
+    <div class="dezute" id="box">
+
+    </div>
+    <div class="dezute" id="box1">
+
+    </div>
+
+
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js">    </script>
+    <script type="text/javascript">
+      $("#name").val("Jonas");
+      $("#surname").val("Jonaitis");
+
+      var name = $("#name").val();
+      var surname = $("#surname").val();
+
+      $("#box").html(name + "<br />" + surname);
+
+      console.log(name + " " + surname);
+
+      var dezutes = $(".dezute");
+
+      dezutes.css({"width":"100px", "height":"100px", "background-color":"red"}).html(name + "<br />" + surname);
+
+      dezutes.prepend("<p>labas</p>");
+
+    </script>
+  </body>
+</html>
